@@ -8,7 +8,7 @@ The project was developed using below libraries and frameworks:
 * [ReactJS](https://reactjs.org/) - A Javascript library for building user interfaces
 * [Materialize](https://materializecss.com/) - A modern responsive front-end framework based on material design
 * [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node
-* [Redux] (https://redux.js.org/) - A predictable state container for Javascript applications
+* [Redux](https://redux.js.org/) - A predictable state container for Javascript applications
 * [React Redux](https://github.com/reduxjs/react-redux) - Official React binding for Redux
 * [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Thunk middleware for Redux
 * [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start) - A collection of navigational components that compose declaratively with your application.
@@ -19,7 +19,7 @@ Versions during this project development: NodeJS v8.11.4 & npm 6.4.1
 
 Clone the repo:
 ```
-git clone https://github.com/nanda248/nanda-easy-gallery.git
+git clone https://github.com/nanda248/oddle-challenge.git
 ```
 
 Install the dependencies and start the server:

@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+h2, h3, h4 {
+  color: $yellowColor;
+  font-style: oblique;
+}
+
+html {
+  background: url('/city_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,21 @@
+:export {
+  primaryColor: #09232E;
+  backgroundColor: #08435B;
+  cardColor: #1A828F;
+  cardDetailsColor: #CBD1AE;
+  yellowColor: #EBA333; }
+
+h2, h3, h4 {
+  color: #EBA333;
+  font-style: oblique; }
+
+html {
+  background: url("/city_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis; }

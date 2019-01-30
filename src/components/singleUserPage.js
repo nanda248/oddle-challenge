@@ -17,11 +17,11 @@ class SingleUserPage extends Component {
         return (
             <div className="container row">
                 
-                { user === null ? "Loading..." : 
+                { user === null ? <LoadingSpinner /> : 
                 <ul className="collection with-header col s12">
                     <li className="collection-header">
                         <img src={user.avatar_url} className="circle" alt="user_avatar" height="100"/>
-                        <h4>Login: {user.login} <br/>Name: {user.name}</h4> 
+                        <h4>Login: {user.login}</h4> 
                     </li>
                     <li class="collection-item">
                         <a href={user.html_url}>Github Link</a>
@@ -40,7 +40,7 @@ class SingleUserPage extends Component {
                     </li>
                 </ul>
                 }
-                <LoadingSpinner name="single"/> 
+                
             </div>
         );
     }

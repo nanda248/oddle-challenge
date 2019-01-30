@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 
-const LoadingSpinner = (props) => (
-    <center><img src="spinner.png" className="App-logo" alt={`App-logo-${props.name}`} /></center>
+const LoadingSpinner = () => (
+    <center><img src="spinner.png" className="App-logo" alt="logo" /></center>
  );
 
  export default LoadingSpinner;

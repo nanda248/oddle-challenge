@@ -7,11 +7,12 @@ Main functionalities of this project is to search Github users using Github API 
 The project was developed using below libraries and frameworks:
 * [ReactJS](https://reactjs.org/) - A Javascript library for building user interfaces
 * [Materialize](https://materializecss.com/) - A modern responsive front-end framework based on material design
-* [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node
+* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node
 * [Redux](https://redux.js.org/) - A predictable state container for Javascript applications
 * [React Redux](https://github.com/reduxjs/react-redux) - Official React binding for Redux
 * [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Thunk middleware for Redux
 * [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start) - A collection of navigational components that compose declaratively with your application.
+* [Lodash](https://lodash.com/) - A modern Javascript utility library delivering modularity, performance and extras.
 
 ### Installation and Setup
 The project requires [Node.js](https://nodejs.org/) to run.

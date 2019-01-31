@@ -18,8 +18,8 @@
     "sweetalert": "^2.1.2"
   },
   "scripts": {
-    "build-css": "node-sass --include-path ./src/assets/scss/ --include-path ./node_modules src/ -o src/assets/css/",
-    "watch-css": "npm run build-css && node-sass --include-path ./src/assets/scss/ --include-path ./node_modules src/ -o src/assets/css/ --watch --recursive",
+    "build-css": "node-sass --include-path ./src/assets/styles --include-path ./node_modules src/ -o src/assets/styles/",
+    "watch-css": "npm run build-css && node-sass --include-path ./src/assets/styles --include-path ./node_modules src/ -o src/assets/styles/ --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "start-js": "react-scripts start",

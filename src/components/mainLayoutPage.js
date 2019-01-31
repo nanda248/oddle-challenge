@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import _ from 'lodash';
-import '../assets/css/mainPage.css';
-import '../assets/scss/styles.scss'
+import '../assets/styles/mainPage.css';
+import '../assets/styles/styles.scss'
 import '../App.css';
 import {fetchUsers, setLoadingSpinner} from '../actions';
 
